@@ -1,9 +1,10 @@
 #!/bin/bash
 
-#
-#Insertion sort. It will order reversewise if -r
-#parameter is provided.
-#
+###Insertion sort. It will order reversewise if -r
+###parameter is provided.
+###The algorithm expects that an array called ELEMS
+###containing the numerical value to be ordered is
+###already defined.
 insertionsort(){
 count=${#ELEMS[@]}
 for((i=1;i<count;i++))
